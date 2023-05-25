@@ -1,5 +1,5 @@
 function getAlbumit() {
-    $.get("http://itunes.apple.com/lookup?id=1472380750&entity=album", function(data, status){
+    $.get("https://itunes.apple.com/lookup?id=1472380750&entity=album", function(data, status){
         const albumit = JSON.parse(data);
         console.log(albumit);
         
